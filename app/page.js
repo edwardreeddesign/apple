@@ -1,9 +1,15 @@
+import { Hero, Highlights, Navbar } from '@/components';
 import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold underline">Apple</h1>
-    </div>
+    <main className="bg-black">
+      {/* navbar */}
+      <Navbar />
+      {/* Hero */}
+      <Hero />
+      {/* Highlights */}
+      <Highlights />
+    </main>
   );
 }
